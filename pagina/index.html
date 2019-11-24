@@ -374,36 +374,42 @@
                     <h3>Ready to accelerate your project? <d> just let us know.</d></h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores libero deserunt a eveniet laboriosam rerum repellendus consequuntur porro, in molestiae veritatis eos aliquam tenetur obcaecati eum recusandae neque, veniam dignissimos.</p>
                 </div>
+               
                 <div class="col-md-6 topmargin-sm">
+                    <form   action="contacto.php" method="POST">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="" placeholder="Name">
+                                <input type="text" name="Nombre" class="form-control" id="Nombre" placeholder="Nombre" required="required">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="" placeholder="Last Name">
+                                <input type="text" name="Apellido" class="form-control" id="Apellido" placeholder="Apellido j" required="required">
                             </div>
                         </div>
+                        
                         <div class="col-md-12">
                             <form class="form-group">
-                                <input type="email" class="form-control" id="" placeholder="Email">
+                                <input type="email" name="Correo" class="form-control" id="Correo" placeholder="Correo "required="required">
+                            </form>
+                        </div>
+                        <br>
+                        <div class="col-md-12">
+                            <form class="form-group">
+                                <input type="text" name="Compañia" class="form-control" id="Compañia" placeholder="Nombre de compañia" required="required">
                             </form>
                         </div>
                         <div class="col-md-12">
                             <form class="form-group">
-                                <input type="text" class="form-control" id="" placeholder="Company name">
+                                <input type="numbre" name="Celular" class="form-control" id="Celular" placeholder="Celular" required="required">
                             </form>
                         </div>
                         <div class="col-md-12">
-                            <form class="form-group">
-                                <input type="numbre" class="form-control" id="" placeholder="Phone nuembser">
-                            </form>
+                            <button type="submit" name="Enviar" class="btn btn-dark full-width">Enviar</button>
                         </div>
-                        <div class="col-md-12">
-                            <a href="#" class="btn btn-dark full-width">Enviar</a>
-                        </div>
+        
+                    </form>
                     </div>
                 </div>
               </div>
@@ -442,6 +448,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!-- Get patch fixes within a minor version -->
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 </body>
 </html>
